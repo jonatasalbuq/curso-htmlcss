@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame</title>
+    <style>
+        iframe[name="tela"]{
+            width: 95vw;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de iFrame</h1>
+    <iframe src="https://www.cursoemvideo.com/" width="400" height="200" frameborder="0" scrolling="auto" name="cv" sandbox="sandbox" referrerpolicy="no-referer">
+        [ Seu navegador não suporta iframes ]
+    </iframe>
+    <iframe src="../ex20/tabela06.html" frameborder="0" width="400" height="200">
+        [ Seu navegador não suporta iframes ]
+    </iframe>
+    <iframe srcdoc="<h1>Hello World</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, sequi? Doloremque quo eius quasi velit aut corporis deleniti repudiandae? Molestiae, facere obcaecati in tenetur numquam ab! Cum consequuntur ratione suscipit." frameborder="1" width="400" height="200">
+        [ Seu navegador não suporta iframes ]
+    </iframe>
+    <h1>Clique em um link</h1>
+    <ul>
+        <li><a href="../ex20/tabela05.html" target="tela">Tabela 1</a></li>
+        <li><a href="../ex20/tabela04.html" target="tela">Tabela 2</a></li>
+        <li><a href="../ex20/tabela02.html" target="tela">Tabela 3</a></li>
+    </ul>
+    <iframe name="tela" frameborder="1"></iframe>
+</body>
+</html>

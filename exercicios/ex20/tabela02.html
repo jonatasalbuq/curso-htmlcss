@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        thead th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            color: white;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+
+        tfoot th{
+            background-color: gray;
+            color: white;
+        }
+
+        .num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela grande</h1>
+    <table>
+        <caption>População da Região Sudeste do Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num">1</td>
+                <td>São Paulo</td>
+                <td class="num">44 420 459</td>
+            </tr>
+            <tr>
+                <td class="num">2</td>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td class="num">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td class="num">4</td>
+                <td>Espírito Santo</td>
+                <td class="num">3 833 486</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2" scope="row">População Total</th>
+                <td class="num"><strong>84 847 187</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus distinctio aliquam, a, aperiam vel ab voluptatum corporis explicabo optio eos sed nam. Placeat distinctio maiores ipsam doloremque at. Iste, perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eum explicabo officiis est perspiciatis laboriosam corrupti? Accusamus molestiae cum culpa debitis aliquam dicta error eaque doloribus, rerum, sit dolor similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nobis doloremque eos, magnam rerum aperiam consectetur autem eligendi aliquid, soluta ut quo dignissimos quod sequi officiis iure error porro illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio libero perferendis eveniet illo sunt laudantium, quibusdam deserunt voluptatibus magnam nostrum facilis delectus suscipit saepe vero quia voluptatum similique quae incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate vitae unde magnam culpa molestias laborum nesciunt ullam fugit, inventore excepturi a quaerat qui provident incidunt adipisci eveniet, minima eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni, repellat illum maxime placeat natus necessitatibus molestias at in quisquam dolorum possimus ducimus quidem! Temporibus, veritatis. Numquam nihil quia quidem?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus distinctio aliquam, a, aperiam vel ab voluptatum corporis explicabo optio eos sed nam. Placeat distinctio maiores ipsam doloremque at. Iste, perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eum explicabo officiis est perspiciatis laboriosam corrupti? Accusamus molestiae cum culpa debitis aliquam dicta error eaque doloribus, rerum, sit dolor similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nobis doloremque eos, magnam rerum aperiam consectetur autem eligendi aliquid, soluta ut quo dignissimos quod sequi officiis iure error porro illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio libero perferendis eveniet illo sunt laudantium, quibusdam deserunt voluptatibus magnam nostrum facilis delectus suscipit saepe vero quia voluptatum similique quae incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate vitae unde magnam culpa molestias laborum nesciunt ullam fugit, inventore excepturi a quaerat qui provident incidunt adipisci eveniet, minima eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni, repellat illum maxime placeat natus necessitatibus molestias at in quisquam dolorum possimus ducimus quidem! Temporibus, veritatis. Numquam nihil quia quidem?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus distinctio aliquam, a, aperiam vel ab voluptatum corporis explicabo optio eos sed nam. Placeat distinctio maiores ipsam doloremque at. Iste, perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eum explicabo officiis est perspiciatis laboriosam corrupti? Accusamus molestiae cum culpa debitis aliquam dicta error eaque doloribus, rerum, sit dolor similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nobis doloremque eos, magnam rerum aperiam consectetur autem eligendi aliquid, soluta ut quo dignissimos quod sequi officiis iure error porro illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio libero perferendis eveniet illo sunt laudantium, quibusdam deserunt voluptatibus magnam nostrum facilis delectus suscipit saepe vero quia voluptatum similique quae incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate vitae unde magnam culpa molestias laborum nesciunt ullam fugit, inventore excepturi a quaerat qui provident incidunt adipisci eveniet, minima eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni, repellat illum maxime placeat natus necessitatibus molestias at in quisquam dolorum possimus ducimus quidem! Temporibus, veritatis. Numquam nihil quia quidem?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus distinctio aliquam, a, aperiam vel ab voluptatum corporis explicabo optio eos sed nam. Placeat distinctio maiores ipsam doloremque at. Iste, perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil eum explicabo officiis est perspiciatis laboriosam corrupti? Accusamus molestiae cum culpa debitis aliquam dicta error eaque doloribus, rerum, sit dolor similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque nobis doloremque eos, magnam rerum aperiam consectetur autem eligendi aliquid, soluta ut quo dignissimos quod sequi officiis iure error porro illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio libero perferendis eveniet illo sunt laudantium, quibusdam deserunt voluptatibus magnam nostrum facilis delectus suscipit saepe vero quia voluptatum similique quae incidunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem cupiditate vitae unde magnam culpa molestias laborum nesciunt ullam fugit, inventore excepturi a quaerat qui provident incidunt adipisci eveniet, minima eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magni, repellat illum maxime placeat natus necessitatibus molestias at in quisquam dolorum possimus ducimus quidem! Temporibus, veritatis. Numquam nihil quia quidem?</p>
+</body>
+</html>
